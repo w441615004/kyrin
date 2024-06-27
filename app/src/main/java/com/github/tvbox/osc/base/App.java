@@ -65,7 +65,7 @@ public class App extends MultiDexApplication {
         Hawk.init(this).build();
         Hawk.put(HawkConfig.DEBUG_OPEN, false);
         if (!Hawk.contains(HawkConfig.PLAY_TYPE)) {
-            Hawk.put(HawkConfig.PLAY_TYPE, 2);
+            Hawk.put(HawkConfig.PLAY_TYPE, 1);
         }
 //自定义默认配置，硬解，安全dns，缩略图
        if (!Hawk.contains(HawkConfig.IJK_CODEC)) { 
